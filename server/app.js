@@ -19,6 +19,8 @@ app.use(helmet())
 app.use(mongoSanitize())
 
 
+
+
 const limiter = rateLimit({
 	windowMs: 15 * 60 * 1000, 
 	limit: 100,	
@@ -31,6 +33,9 @@ app.use(limiter)
 
 app.use("/api/v1", router)
 
+app.get("", (req,res)=>{
+    res.send("Api working")
+})
 
 export default app
 

@@ -139,9 +139,9 @@ braces@~3.0.2:
     fill-range "^7.1.1"
 
 bson@^6.7.0:
-  version "6.9.0"
-  resolved "https://registry.yarnpkg.com/bson/-/bson-6.9.0.tgz#2be50049430dceaa9300402520fe03e4ed5fdfd6"
-  integrity sha512-X9hJeyeM0//Fus+0pc5dSUMhhrrmWwQUtdavaQeF3Ta6m69matZkGWV/MrBcnwUeLC8W9kwwc2hfkZgUuCX3Ig==
+  version "6.10.0"
+  resolved "https://registry.yarnpkg.com/bson/-/bson-6.10.0.tgz#559c767cc8b605c3ab14e5896214c8f2abdd6a12"
+  integrity sha512-ROchNosXMJD2cbQGm84KoP7vOGPO6/bOAW0veMMbzhXLqoZptcaYRVLitwvuhwhjjpU1qP4YZRWLhgETdgqUQw==
 
 buffer-equal-constant-time@1.0.1:
   version "1.0.1"
@@ -761,9 +761,9 @@ mongodb@~6.10.0:
     mongodb-connection-string-url "^3.0.0"
 
 mongoose@^8.8.1:
-  version "8.8.1"
-  resolved "https://registry.yarnpkg.com/mongoose/-/mongoose-8.8.1.tgz#1caab80aa2e91d6121b13ca020890d18327c45f3"
-  integrity sha512-l7DgeY1szT98+EKU8GYnga5WnyatAu+kOQ2VlVX1Mxif6A0Umt0YkSiksCiyGxzx8SPhGe9a53ND1GD4yVDrPA==
+  version "8.8.2"
+  resolved "https://registry.yarnpkg.com/mongoose/-/mongoose-8.8.2.tgz#6ed847b54382fff561d147fde8282dac53c7b603"
+  integrity sha512-jCTSqDANfRzk909v4YoZQi7jlGRB2MTvgG+spVBc/BA4tOs1oWJr//V6yYujqNq9UybpOtsSfBqxI0dSOEFJHQ==
   dependencies:
     bson "^6.7.0"
     kareem "2.6.3"
